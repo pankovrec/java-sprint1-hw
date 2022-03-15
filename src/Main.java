@@ -10,7 +10,7 @@ public class Main {
 
     }
 
-    static void printMenu() {
+    static void printMenu() { // меню взаимодействия.
         Scanner scanner = new Scanner(System.in);
         StepTracker stepTracker = new StepTracker();
         label:
