@@ -29,9 +29,9 @@ public class Main {
                     default:
                         System.out.println("Извините, такой команды пока нет.");
                         break;
-                }
             }
         }
+    }
 
     // выводим меню.
     static void printMenu() {
@@ -40,7 +40,7 @@ public class Main {
             System.out.println("2 - Напечатать статистику за определённый месяц.");
             System.out.println("3 - Изменить цель по количеству шагов в день.");
             System.out.println("4 - Выход.");
-}
+    }
 
     // выясняем количество нужных шагов для новой цели, проверяем корректность, передаем на запись.
     static void inputGoalSteps() {
